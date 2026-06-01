@@ -1,0 +1,17 @@
+[package]
+name = "lau-conservation-experiment"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+repository = "https://github.com/SuperInstance/lau-conservation-experiment"
+description = "The first real experiment: testing the emergent conservation law that no single crate encodes"
+
+[dependencies]
+nalgebra = "0.33"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+rand = "0.8"
+rand_distr = "0.4"
+
+[dev-dependencies]
+approx = "0.5"
